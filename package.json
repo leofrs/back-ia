@@ -1,0 +1,26 @@
+{
+	"name": "backia",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon ./src/config/server.ts"
+	},
+	"keywords": [],
+	"author": "Leonardo Freire Rodrigues dos Santos",
+	"license": "MIT",
+	"description": "",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.8.4",
+		"mongoose": "^8.7.3",
+		"nodemon": "^3.1.7",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	}
+}
